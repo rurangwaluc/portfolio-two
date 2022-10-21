@@ -10,7 +10,7 @@ import Icon6 from "../../assets/icon-6.png";
 const Skills = ({ myTheme }) => {
   return (
     <section id="skills" className="skills"  data-theme={myTheme}>
-        <h2 className="h2 article-title">  My Skills</h2>
+        
         <div className="box-container">
         <div className="box">
         <img src={Icon1} />

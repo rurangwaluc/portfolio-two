@@ -101,6 +101,7 @@ const Resume = ({ myTheme }) => {
             </ol>
          </section>
          </div>
+         <h2 className="h2 article-title">  My Skills</h2>
          <Skills /> 
     </section>
   );

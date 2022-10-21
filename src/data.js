@@ -44,7 +44,7 @@ export const navItems = [
     path: "/resume",
     nName: "nav-item",
     sName: "sidebar-item",
-    icon: <Icons.FaBriefcase />,
+    icon: <Icons.FaCode />,
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ export const navItems = [
     path: "/portfolio",
     nName: "nav-item",
     sName: "sidebar-item",
-    icon: <Icons.FaCartArrowDown />,
+    icon: <Icons.FaBriefcase />,
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ export const navItems = [
     path: "/blog",
     nName: "nav-item",
     sName: "sidebar-item",
-    icon: <Icons.FaCartArrowDown />,
+    icon: <Icons.FaBloggerB />,
   },
   
   {
