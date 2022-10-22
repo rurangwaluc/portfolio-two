@@ -85,6 +85,15 @@
 @media (max-width: 405px){
   .hero {
     padding-top: 10rem;
+    height: 85vh;
+  }
+  .hero::after {
+  height: 85vh;
+
+  }
+  .hero.counter::after {
+  height: 85vh;
+
   }
   .heroContent {
     max-width: 90%;
