@@ -9,6 +9,7 @@
     color: var(--foreground);
     padding-top: 15rem;
     height: 100vh;
+    z-index: 9999;
     .row{
       display: grid;
       grid-template-columns:  1fr 2fr;
