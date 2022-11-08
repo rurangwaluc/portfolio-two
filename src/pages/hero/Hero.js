@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Hero.scss";
 import { home } from "../../data";
 import Typewriter from "typewriter-effect";
@@ -23,7 +24,7 @@ const Hero = ({ myTheme }) => {
             </h1>
             <p data-aos='fade-left'>{val.desc}</p>
             <button className='btn' >
-              Download CV
+              <Link to='/about'>About</Link>
             </button>
           </div>
         ))}
