@@ -24,7 +24,7 @@ const Hero = ({ myTheme }) => {
             </h1>
             <p data-aos='fade-left'>{val.desc}</p>
             <button className='btn' >
-              <Link to='/about'>About</Link>
+              <Link to='/about'>About Me</Link>
             </button>
           </div>
         ))}
